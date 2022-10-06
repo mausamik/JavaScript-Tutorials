@@ -9,16 +9,16 @@ By using an object constructor (using new keyword)
 
 //1. By object literal
 
-// obj = {id : 102 , name : "Mausami" , salary : 2000}
-// console.log("Id is : " + obj.id + " Name is : " + obj.name)
+obj = {id : 102 , name : "Mausami" , salary : 2000}
+console.log("Id is : " + obj.id + " Name is : " + obj.name)
 
 // // 2. By creating instance of Object directly (using new keyword)
 
-// var emp=new Object();  
-// emp.id=101;  
-// emp.name="Ravi Malik";  
-// emp.salary=50000;  
-// console.log("Id is : " + emp.id + " Name is : " + emp.name)
+var emp=new Object();  
+emp.id=101;  
+emp.name="Ravi Malik";  
+emp.salary=50000;  
+console.log("Id is : " + emp.id + " Name is : " + emp.name)
 
 // 3. By using an object constructor (using new keyword)
 
