@@ -2,8 +2,6 @@
 
 // some important points --> ; is necessary 
 
-var a = 10 ;
-var b = 20 ;
 
 // single line comment 
 
@@ -18,6 +16,8 @@ function add(a, b)
 }
 
 
-res = add(a, b) 
-print(res)
+var a = 10 ;
+var b = 20 ;
+var res = add(a, b)
+console.log(res)
 
