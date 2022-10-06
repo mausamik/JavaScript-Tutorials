@@ -1,0 +1,10 @@
+/*
+############# PRIMITIVE DATATYPES 
+
+STRING 
+NUMBER 
+BOOLEAN 
+UNDEFINED 
+NULL 
+
+*/
