@@ -23,7 +23,7 @@ while(j < 5 ){
 }
 
 
-console.log(" do while loop")
+console.log("do while loop")
 var k = 1 
 do{
     console.log(k + " ");
