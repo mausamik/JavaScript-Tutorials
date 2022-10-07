@@ -1,0 +1,36 @@
+
+<!-- 
+JS doesnt have concepts of class 
+but fucntions can be used as class 
+
+class - methods & constructors  -->
+
+<html>
+    <body>
+        <script>
+            // declaring class 
+            class Employee{
+                // initialise constructor 
+                Employee(id, name){
+                    this.id = id ;
+                    this.name = name ;
+                }
+                // declaring methods 
+                details(){
+                    console.log(this.id + "  " + this.name)
+                }
+            }
+            // passing obj 
+            var e1 = new Employee(101, "Mausami")
+            // call the method 
+            e1.details(); 
+
+
+        </script>
+
+    </body>
+</html>
+
+
+
+

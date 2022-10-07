@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+    EVENT LISTENER 
+    ## 
+    element.addEventListener(event , function, useCapture )
+
+    event : event name 
+    fucntion : responds to the event occured (what do this event needs to perform )
+    useCapture : boolean value 
+                 defualt == false 
+                 specifies whether event is executed in bubbling or capturing phase 
+                 true -> capturing 
+                 false -> bubbling 
+-->
+<body>
+    <p> Example of adding more than one event listeners</p>  
+    <p> Click the following button to see the effect. </p>  
+    <button id = "btn"> Click me </button>  
+    <p id = "para"></p>  
+     
+    <!-- <script>  
+        document.getElementById("btn").addEventListener("click", fun);  
+        function fun() {  
+        document.getElementById("para").innerHTML = "Hello World" + "<br>" + "Welcome to the  javaTpoint.com";  
+        }  
+    </script>
+    -->
+    <!-- 
+        Adding more than 2 event listeners 
+    -->
+    <script>
+        // fucntion to change the styles 
+        function f(){
+            btn.style.width  = "50px";
+            btn.style.background = "yellow";  
+            btn.style.color = "blue";  
+
+        }
+        // fucntion to change text
+        function f1(){
+            document.getElementById("para").innerHTML ="This is second function";
+
+        }
+        
+        var mybtn = document.getElementById("btn");
+        mybtn.addEventListener("mouseover" ,f )
+        mybtn.addEventListener("click", f1);
+    </script>
+
+</body>
+
+
