@@ -1,0 +1,37 @@
+
+<!--
+    Why innerHTML ?
+        get hTML Content 
+        change html content 
+        delete html content 
+
+-->
+
+<!DOCTYPE html>
+<body>
+    <script>
+        function changeContent() {
+            document.getElementById("p").innerHTML =
+            "Computer Science student who learns and shares ";
+        }
+        function getContent(){
+           var msg =  document.getElementById("h3").innerHTML;
+           alert(x) ;
+        }
+    </script>
+
+
+    <h1 style="color:green">
+        This is for Inner HTML understanding 
+    </h1>
+    <h2>
+        DOM innerHTML Property
+    </h2>
+    <p id="p">My name is Mausami </p>
+    <h3 id ="h3">This will display in alert </h3>
+ 
+ 
+    <button onclick="changeContent()">Know me!</button>
+    <button onclick="getContent()">Get me !</button>
+    
+</body>
