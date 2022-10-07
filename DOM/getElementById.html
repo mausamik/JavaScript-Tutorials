@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title> Getting element by id </title>
+</head>
+<body>
+    <script type ="text/javascript">
+        function getcube(){
+            var no = document.getElementById("number").value;
+            alert(no*no*no);
+        }
+
+    </script>
+    <form>
+        Enter Number: <input type="text" name="cubes" id="number"/>
+        <input type="button" value = "cube" onclick="getcube()"/>
+
+    </form>
+    
+</body>

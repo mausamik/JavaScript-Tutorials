@@ -1,0 +1,52 @@
+<!--
+    # DOM - Document Object Model 
+
+## window.document  or document 
+
+## Methods of document object 
+
+
+1. write("string") 
+2. writeln("string")
+3. getElementById() // returns ele having id value 
+4. getElementByName() // by name 
+5. getElementByTagName()
+6. getElementByClassName()
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   
+<head>
+    <meta charset="utf-8">
+    <title> Methods in DOM </title>
+</head>
+   
+<body style="text-align: center;">
+    <form name ="form ">
+        Enter name : <input type = "text" name ="name">
+        <input type = "button" onclick="printvalue()" value="printname"/>
+
+
+    </form>
+
+    <script type="text/javascript">
+        function printvalue()
+        {
+            var name = document.form.name.value;
+            // getting name 
+            alert("welcome " + name );
+        }
+    </script>
+ 
+</body>
+</html>
+
+
+
+
+
+
+
+
