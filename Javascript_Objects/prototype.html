@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Prototype ?
+facilitates objects  to acquire properties and features from one another.
+Each object contains Prototype obj 
+
+# classname.prototype.methodname  -->
+
+
+    <script>
+        function Student(){
+            this.name ="john";
+            this.gender = "M";
+        }
+
+        Student.prototype.age = 15 ; 
+        var obj1 = new Student();
+        obj1.age= 15 ; // once prototype is added , no need of this line 
+        alert(obj1.age) ;// returns 15 
+
+        // creating 2nd obj 
+        var obj2 = new Student();
+        alert(obj2.age); // undefined 
+        
+        // as age property has just been assignned to obj1 and not obj2 
+        // after addition of prototype , thiswill return 15 
+
+        // ### so how to add a new property to function 
+        // #### --> Solution --> Prototype 
+                // ### add prototype after fucntion 
+
+
+
+
+
+    </script>
+</body>
